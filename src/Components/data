@@ -1,0 +1,473 @@
+// [
+//   {
+//     id: "05eaaeff-6a58-4a6b-a3fd-6dc6810afb9c",
+//     title: "JavaScript Fundamentals",
+//     description:
+//       "Learn the core features of JavaScript, including ES6+, functions, and asynchronous programming.",
+//     instructor_id: "cfd8452b-96ec-4525-adf8-f8ffdda4d0d1",
+//     modules: [
+//       {
+//         id: "module-1",
+//         title: "Introduction to JS",
+//         description: "Understand JS syntax, variables, and basic operators.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/5a43f6f6-59cc-47f3-b059-cec21f9bb55e.mp4",
+//       },
+//       {
+//         id: "module-2",
+//         title: "Functions and Scope",
+//         description:
+//           "Learn function declarations, expressions, and lexical scope.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/f182e9b7-82b6-45e8-9694-2f036567ba85.mp4",
+//       },
+//       {
+//         id: "module-3",
+//         title: "Objects and Arrays",
+//         description: "Work with objects, arrays, and iteration methods.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/e034fa58-f6a0-46b5-b425-35af872aa338.mp4",
+//       },
+//       {
+//         id: "module-4",
+//         title: "Asynchronous JS",
+//         description: "Learn promises, async/await, and callbacks.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/8a0df01b-616e-42f8-a501-a0c77974debf.mp4",
+//       },
+//       {
+//         id: "module-5",
+//         title: "Advanced Topics",
+//         description: "Explore closures, modules, and ES6+ features.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/c9e9820d-ae80-41ca-be5f-6bda94213702.mp4",
+//       },
+//     ],
+//     is_premium_course: true,
+//     created_at: "2025-11-01T09:00:00Z",
+//     updated_at: "2025-11-01T09:00:00Z",
+//   },
+//   {
+//     id: "2f3b0c4e-8b0f-4a42-b49e-8aaf7c9e5d12",
+//     title: "Python for Beginners",
+//     description:
+//       "Learn Python from scratch including syntax, data structures, and OOP concepts.",
+//     instructor_id: "cfd8452b-96ec-4525-adf8-f8ffdda4d0d1",
+//     modules: [
+//       {
+//         id: "module-1",
+//         title: "Python Basics",
+//         description: "Variables, data types, and basic syntax.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/e034fa58-f6a0-46b5-b425-35af872aa338.mp4",
+//       },
+//       {
+//         id: "module-2",
+//         title: "Control Flow",
+//         description: "Conditional statements and loops.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/f182e9b7-82b6-45e8-9694-2f036567ba85.mp4",
+//       },
+//       {
+//         id: "module-3",
+//         title: "Functions and Modules",
+//         description: "Writing reusable functions and importing modules.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/c9e9820d-ae80-41ca-be5f-6bda94213702.mp4",
+//       },
+//       {
+//         id: "module-4",
+//         title: "Data Structures",
+//         description: "Lists, tuples, dictionaries, and sets.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/8a0df01b-616e-42f8-a501-a0c77974debf.mp4",
+//       },
+//       {
+//         id: "module-5",
+//         title: "Object-Oriented Programming",
+//         description: "Classes, objects, inheritance, and encapsulation.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/5a43f6f6-59cc-47f3-b059-cec21f9bb55e.mp4",
+//       },
+//     ],
+//     is_premium_course: true,
+//     created_at: "2025-11-02T09:00:00Z",
+//     updated_at: "2025-11-02T09:00:00Z",
+//   },
+//   {
+//     id: "3a1d9f8b-7c32-4a17-b25f-d9f8b3a2c1d4",
+//     title: "Fullstack with Node.js",
+//     description:
+//       "Learn backend development with Node.js, Express, and database integration.",
+//     instructor_id: "cfd8452b-96ec-4525-adf8-f8ffdda4d0d1",
+//     modules: [
+//       {
+//         id: "module-1",
+//         title: "Node.js Basics",
+//         description: "Setting up Node.js, modules, and package management.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/f182e9b7-82b6-45e8-9694-2f036567ba85.mp4",
+//       },
+//       {
+//         id: "module-2",
+//         title: "Express.js Fundamentals",
+//         description: "Routing, middleware, and creating RESTful APIs.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/8a0df01b-616e-42f8-a501-a0c77974debf.mp4",
+//       },
+//       {
+//         id: "module-3",
+//         title: "Database Integration",
+//         description: "Connecting to PostgreSQL, performing CRUD operations.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/e034fa58-f6a0-46b5-b425-35af872aa338.mp4",
+//       },
+//       {
+//         id: "module-4",
+//         title: "Authentication & Authorization",
+//         description: "Implement JWT, sessions, and role-based access.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/5a43f6f6-59cc-47f3-b059-cec21f9bb55e.mp4",
+//       },
+//       {
+//         id: "module-5",
+//         title: "Deploying Node.js Apps",
+//         description: "Learn to deploy Node.js apps to cloud platforms.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/c9e9820d-ae80-41ca-be5f-6bda94213702.mp4",
+//       },
+//     ],
+//     is_premium_course: false,
+//     created_at: "2025-11-03T09:00:00Z",
+//     updated_at: "2025-11-03T09:00:00Z",
+//   },
+//   {
+//     id: "4b2e8c1f-6d14-4b53-a8a1-7c8f2b3d1a9e",
+//     title: "React Advanced",
+//     description:
+//       "Dive deep into React hooks, state management, and performance optimization.",
+//     instructor_id: "cfd8452b-96ec-4525-adf8-f8ffdda4d0d1",
+//     modules: [
+//       {
+//         id: "module-1",
+//         title: "Hooks in Depth",
+//         description: "useState, useEffect, useMemo, and custom hooks.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/e034fa58-f6a0-46b5-b425-35af872aa338.mp4",
+//       },
+//       {
+//         id: "module-2",
+//         title: "Context API & Redux",
+//         description: "State management with Context API and Redux.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/f182e9b7-82b6-45e8-9694-2f036567ba85.mp4",
+//       },
+//       {
+//         id: "module-3",
+//         title: "React Router",
+//         description: "Navigation and routing in single-page applications.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/c9e9820d-ae80-41ca-be5f-6bda94213702.mp4",
+//       },
+//       {
+//         id: "module-4",
+//         title: "Performance Optimization",
+//         description: "Memoization, lazy loading, and code splitting.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/8a0df01b-616e-42f8-a501-a0c77974debf.mp4",
+//       },
+//       {
+//         id: "module-5",
+//         title: "Testing React Apps",
+//         description:
+//           "Unit and integration testing using Jest and React Testing Library.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/5a43f6f6-59cc-47f3-b059-cec21f9bb55e.mp4",
+//       },
+//     ],
+//     is_premium_course: true,
+//     created_at: "2025-11-04T09:00:00Z",
+//     updated_at: "2025-11-04T09:00:00Z",
+//   },
+//   {
+//     id: "5c3f1a9e-9b24-4e6b-a9f8-1e7d4c2b8a11",
+//     title: "TypeScript Mastery",
+//     description:
+//       "Master TypeScript, static typing, interfaces, generics, and integration with frameworks.",
+//     instructor_id: "cfd8452b-96ec-4525-adf8-f8ffdda4d0d1",
+//     modules: [
+//       {
+//         id: "module-1",
+//         title: "TypeScript Basics",
+//         description: "Variables, types, and basic syntax in TypeScript.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/8a0df01b-616e-42f8-a501-a0c77974debf.mp4",
+//       },
+//       {
+//         id: "module-2",
+//         title: "Interfaces & Types",
+//         description: "Creating interfaces, types, and type aliases.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/f182e9b7-82b6-45e8-9694-2f036567ba85.mp4",
+//       },
+//       {
+//         id: "module-3",
+//         title: "Generics",
+//         description: "Understanding generics for reusable code.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/e034fa58-f6a0-46b5-b425-35af872aa338.mp4",
+//       },
+//       {
+//         id: "module-4",
+//         title: "TS with React",
+//         description: "Using TypeScript in React projects.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/c9e9820d-ae80-41ca-be5f-6bda94213702.mp4",
+//       },
+//       {
+//         id: "module-5",
+//         title: "Advanced TS Features",
+//         description: "Decorators, namespaces, and module augmentation.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/5a43f6f6-59cc-47f3-b059-cec21f9bb55e.mp4",
+//       },
+//     ],
+//     is_premium_course: false,
+//     created_at: "2025-11-05T09:00:00Z",
+//     updated_at: "2025-11-05T09:00:00Z",
+//   },
+//   {
+//     id: "6d4b2c8e-1e11-4b7b-832f-0b9c1e7d9a23",
+//     title: "Next.js Complete Guide",
+//     description:
+//       "Learn server-side rendering, static generation, and building fullstack apps with Next.js.",
+//     instructor_id: "cfd8452b-96ec-4525-adf8-f8ffdda4d0d1",
+//     modules: [
+//       {
+//         id: "module-1",
+//         title: "Next.js Basics",
+//         description: "Pages, routing, and project setup.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/c9e9820d-ae80-41ca-be5f-6bda94213702.mp4",
+//       },
+//       {
+//         id: "module-2",
+//         title: "Data Fetching",
+//         description: "getStaticProps, getServerSideProps, and SWR.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/5a43f6f6-59cc-47f3-b059-cec21f9bb55e.mp4",
+//       },
+//       {
+//         id: "module-3",
+//         title: "API Routes",
+//         description: "Building backend APIs inside Next.js.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/8a0df01b-616e-42f8-a501-a0c77974debf.mp4",
+//       },
+//       {
+//         id: "module-4",
+//         title: "Authentication",
+//         description: "Implementing auth with JWT and cookies.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/e034fa58-f6a0-46b5-b425-35af872aa338.mp4",
+//       },
+//       {
+//         id: "module-5",
+//         title: "Deployment",
+//         description: "Deploying Next.js apps to Vercel.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/f182e9b7-82b6-45e8-9694-2f036567ba85.mp4",
+//       },
+//     ],
+//     is_premium_course: true,
+//     created_at: "2025-11-06T09:00:00Z",
+//     updated_at: "2025-11-06T09:00:00Z",
+//   },
+//   {
+//     id: "7e5c3d9b-3a45-4d28-a7d8-2f9e3b1c4d67",
+//     title: "CSS & Flexbox Mastery",
+//     description: "Master modern CSS, Flexbox, Grid, and responsive design.",
+//     instructor_id: "cfd8452b-96ec-4525-adf8-f8ffdda4d0d1",
+//     modules: [
+//       {
+//         id: "module-1",
+//         title: "CSS Basics",
+//         description: "Selectors, properties, and the box model.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/8a0df01b-616e-42f8-a501-a0c77974debf.mp4",
+//       },
+//       {
+//         id: "module-2",
+//         title: "Flexbox",
+//         description: "Learn flex containers, alignment, and ordering.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/5a43f6f6-59cc-47f3-b059-cec21f9bb55e.mp4",
+//       },
+//       {
+//         id: "module-3",
+//         title: "Grid Layout",
+//         description: "Master CSS grid for advanced layouts.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/c9e9820d-ae80-41ca-be5f-6bda94213702.mp4",
+//       },
+//       {
+//         id: "module-4",
+//         title: "Responsive Design",
+//         description: "Media queries and mobile-first design.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/e034fa58-f6a0-46b5-b425-35af872aa338.mp4",
+//       },
+//       {
+//         id: "module-5",
+//         title: "Animations & Transitions",
+//         description: "CSS transitions, animations, and keyframes.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/f182e9b7-82b6-45e8-9694-2f036567ba85.mp4",
+//       },
+//     ],
+//     is_premium_course: false,
+//     created_at: "2025-11-07T09:00:00Z",
+//     updated_at: "2025-11-07T09:00:00Z",
+//   },
+//   {
+//     id: "8f6d4e2c-4b56-4f19-bc9a-3e2f1d5b6a78",
+//     title: "Django Web Development",
+//     description:
+//       "Learn backend development with Django, building APIs and fullstack apps.",
+//     instructor_id: "cfd8452b-96ec-4525-adf8-f8ffdda4d0d1",
+//     modules: [
+//       {
+//         id: "module-1",
+//         title: "Django Basics",
+//         description: "Project setup, apps, and models.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/5a43f6f6-59cc-47f3-b059-cec21f9bb55e.mp4",
+//       },
+//       {
+//         id: "module-2",
+//         title: "Views & Templates",
+//         description: "Class-based views, templates, and context.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/8a0df01b-616e-42f8-a501-a0c77974debf.mp4",
+//       },
+//       {
+//         id: "module-3",
+//         title: "Forms & Validation",
+//         description: "Working with Django forms and validations.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/e034fa58-f6a0-46b5-b425-35af872aa338.mp4",
+//       },
+//       {
+//         id: "module-4",
+//         title: "REST APIs",
+//         description: "Django REST Framework for API development.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/f182e9b7-82b6-45e8-9694-2f036567ba85.mp4",
+//       },
+//       {
+//         id: "module-5",
+//         title: "Deployment",
+//         description: "Deploy Django apps to Heroku and cloud servers.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/c9e9820d-ae80-41ca-be5f-6bda94213702.mp4",
+//       },
+//     ],
+//     is_premium_course: true,
+//     created_at: "2025-11-08T09:00:00Z",
+//     updated_at: "2025-11-08T09:00:00Z",
+//   },
+//   {
+//     id: "9g7e5f1a-5c67-4d28-bd9b-4f3e1c6b7d89",
+//     title: "Vue.js Essentials",
+//     description:
+//       "Learn Vue.js framework, components, reactivity, and Vue Router.",
+//     instructor_id: "cfd8452b-96ec-4525-adf8-f8ffdda4d0d1",
+//     modules: [
+//       {
+//         id: "module-1",
+//         title: "Vue Basics",
+//         description: "Vue instance, template syntax, and data binding.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/f182e9b7-82b6-45e8-9694-2f036567ba85.mp4",
+//       },
+//       {
+//         id: "module-2",
+//         title: "Components",
+//         description: "Creating and using components.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/8a0df01b-616e-42f8-a501-a0c77974debf.mp4",
+//       },
+//       {
+//         id: "module-3",
+//         title: "Reactivity & Computed",
+//         description: "Reactive state and computed properties.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/5a43f6f6-59cc-47f3-b059-cec21f9bb55e.mp4",
+//       },
+//       {
+//         id: "module-4",
+//         title: "Vue Router",
+//         description: "Navigation and SPA routing.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/c9e9820d-ae80-41ca-be5f-6bda94213702.mp4",
+//       },
+//       {
+//         id: "module-5",
+//         title: "State Management",
+//         description: "Using Vuex for global state.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/e034fa58-f6a0-46b5-b425-35af872aa338.mp4",
+//       },
+//     ],
+//     is_premium_course: false,
+//     created_at: "2025-11-09T09:00:00Z",
+//     updated_at: "2025-11-09T09:00:00Z",
+//   },
+//   {
+//     id: "10h8f6g2-6d78-4e39-cd1a-5g4h2i7j8k90",
+//     title: "MongoDB & NoSQL",
+//     description:
+//       "Master NoSQL databases using MongoDB, aggregation, indexing, and data modeling.",
+//     instructor_id: "cfd8452b-96ec-4525-adf8-f8ffdda4d0d1",
+//     modules: [
+//       {
+//         id: "module-1",
+//         title: "MongoDB Basics",
+//         description: "Installation, setup, and CRUD operations.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/5a43f6f6-59cc-47f3-b059-cec21f9bb55e.mp4",
+//       },
+//       {
+//         id: "module-2",
+//         title: "Indexes & Aggregation",
+//         description: "Indexing, aggregation pipeline, and performance tips.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/f182e9b7-82b6-45e8-9694-2f036567ba85.mp4",
+//       },
+//       {
+//         id: "module-3",
+//         title: "Schema Design",
+//         description: "Modeling data for NoSQL databases.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/8a0df01b-616e-42f8-a501-a0c77974debf.mp4",
+//       },
+//       {
+//         id: "module-4",
+//         title: "Mongoose ODM",
+//         description: "Using Mongoose to model MongoDB data.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/c9e9820d-ae80-41ca-be5f-6bda94213702.mp4",
+//       },
+//       {
+//         id: "module-5",
+//         title: "Advanced Queries",
+//         description: "Complex queries, transactions, and aggregation.",
+//         video_url:
+//           "https://qirsetkyxalxkpdeotnx.supabase.co/storage/v1/object/public/course-videos/videos/e034fa58-f6a0-46b5-b425-35af872aa338.mp4",
+//       },
+//     ],
+//     is_premium_course: true,
+//     created_at: "2025-11-10T09:00:00Z",
+//     updated_at: "2025-11-10T09:00:00Z",
+//   },
+// ];
