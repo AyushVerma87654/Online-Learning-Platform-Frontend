@@ -33,7 +33,7 @@ const schema = Yup.object().shape({
   isPremiumCourse: Yup.boolean().required(),
   modules: Yup.array().of(
     Yup.object().shape({
-      id: Yup.number(),
+      id: Yup.string(),
       title: Yup.string().required("Module title is required"),
       description: Yup.string().required("Module description is required"),
       videoUrl: Yup.string().required("Module video is required"),
@@ -52,7 +52,6 @@ const CourseForm: FC<CourseFormProps & FormikProps<CourseFormValues>> = ({
   user,
 }) => {
   const [selectedFiles, setSelectedFiles] = useState<Record<string, File>>({});
-
   useEffect(() => {
     if (!uploadedVideoUrl) return;
     values.modules.forEach((module, index) => {

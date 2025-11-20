@@ -30,7 +30,9 @@ export const studentCoursesSelector = createSelector(
   [allCoursesSelector, userCoursesProgressMapSelector],
   (allCourses, userCoursesProgress) =>
     (userCoursesProgress &&
-      userCoursesProgress.map((course) => allCourses[course.id])) ||
+      userCoursesProgress.map(
+        (courseProgress) => allCourses[courseProgress.courseId]
+      )) ||
     []
 );
 
